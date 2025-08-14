@@ -1,0 +1,13 @@
+langchain
+langchain-community
+faiss-cpu
+PyMuPDF
+tiktoken
+mutagen
+pydantic
+fastapi
+uvicorn
+python-dotenv
+python-multipart
+sentence-transformers
+torch
