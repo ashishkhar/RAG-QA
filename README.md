@@ -67,3 +67,23 @@ ollama pull codeqwen:7b-chat-v1.5-q8_0
     ```
     Enter your query (or 'exit' to quit): what is gst
     ```
+
+
+
+### Usage of qdrant 
+
+1.  **Add Documents**: Place your PDF files into the `uploads/` directory.
+
+2.  **Build Knowledge Base**: Run this script once to index your documents.
+    ```bash
+    python .\qdrant_code.py rebuild
+    ```
+
+3.  **Ask Questions**: Start the retriever to ask questions.
+    ```bash
+    python .\qdrant_code.py search
+    ```
+    **Example:**
+    ```
+    Enter your query (or 'exit' to quit): getting issue in UPI ID
+    ```

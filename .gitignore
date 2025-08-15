@@ -1,1 +1,5 @@
 Vector_store
+
+venv
+
+qdrant_storage
